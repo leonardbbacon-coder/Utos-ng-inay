@@ -3,7 +3,7 @@ onload = () => {
   const c = setTimeout(() => {
     document.body.classList.remove("not-loaded");
 
-    const titles = ('DAMI UTOS MOMMY').split('')
+    const titles = ('I LOVE YOU').split('')
     const titleElement = document.getElementById('title');
     let index = 0;
 
@@ -21,3 +21,4 @@ onload = () => {
   }, 1000);
 
 };
+
