@@ -22,9 +22,7 @@ let noButtonSize = 1;
 let yesButtonSize = 1;
 
 yesBtn.addEventListener("click", () => {
-  title.innerHTML = "Yay! I Love You!! 💗";
-  btnContainer.classList.add("hidden");
-  changeImage("yes");
+  window.location.href = "letter.html";
 });
 
 noBtn.addEventListener("click", () => {
@@ -72,3 +70,4 @@ function changeImage(image) {
 function updateNoButtonText() {
   noBtn.innerHTML = generateMessage(noCount);
 }
+
