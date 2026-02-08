@@ -1,14 +1,13 @@
 const letter = `I just want you to know something…
 
-Thank you for being you.
-You make my days lighter, and my heart calmer.
-I’m really happy I get to talk to you.
-I really hope that someday we'll be together forever.
-I'm really glad that you have become a person in my life.
-I hope that no matter what happens we'll be able to get through
-it all I love you so much. Thank you for everything
+Si mommy ay maraming utos.
+Sabi ni mommy send ko daw to sa kanya.
+Kahit ayaw ko lagi niya akong kinukulit.
+Sabi niya lagot daw ako sa kanya kapag hindi ko sinend.
+Kaya yun ito na se send ko na sa kanya kasi baka mamaya,
+ma lagot talaga ako edi kawawa nako niyan kung ganon.
 
-Happy Valentine’s 💗
+Malay ko sayo
 — Leo`;
 
 const letterText = document.getElementById("letterText");
@@ -28,3 +27,4 @@ typeLetter();
 openFlowers.addEventListener("click", () => {
   window.location.href = "flower.html";
 });
+
